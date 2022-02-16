@@ -1,0 +1,79 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";  //styles.css
+ 
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+html, body { height: 100%; }
+body { margin: 0;
+     font-family: Roboto,
+      "Helvetica Neue", sans-serif;
+     background-color: #f3f3f3;
+    padding: 50px 0; }
+
+.page{
+    &.home{
+        .page-title{
+            .svg{
+
+                width: 60px;
+                height:60px;
+                margin-left : 15px;
+             
+               }
+            
+        }
+        .example-form{
+            .example-full-width{
+                width: 55%;
+                margin-right: 5px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .page{
+      &.home{
+          .one{
+            .page-title{
+                width: 10rem;
+                height : 3rem;
+                margin : 0rem;
+                font-size: 15px;
+                .svg{
+                    
+                    width: 3rem;
+                    height: 3rem;
+                }
+            }
+            
+
+           
+          }
+          
+          .two{
+            .example-container{
+               h5{
+                  font-size: 10px;
+               }
+               .example-box{
+                   font-size: 10px;
+               }
+               .svg{
+                   width: 1.2rem;
+                   height: 1.2rem;
+                   border-radius: 100%;
+                   margin: 0;
+                   padding: 0;
+
+               }
+               .a{
+                  
+               }
+            }
+        }
+      }
+      
+    }
+   }
+
+  
